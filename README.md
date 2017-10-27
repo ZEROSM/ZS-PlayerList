@@ -1,0 +1,1 @@
+# ZEROSM BetterTogether - Nukkit Plugin
