@@ -1,7 +1,7 @@
 # ZS-PlayerList
-제작: 고장난제로
-제작팀: ZEROSM Network
-라이센스: ZEROSM Network Inc.
+- 제작: 고장난제로
+- 제작팀: ZEROSM Network
+- 라이센스: ZEROSM Network Inc.
 
 ----------------------------
 
