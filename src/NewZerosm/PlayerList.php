@@ -19,6 +19,14 @@ class PlayerList extends PluginBase{
 	}
 
 	public function onEnable(){
+		if(($this->getServer()->getPluginManager()->getPlugin("FormAPI")) === null){
+			$this->getServer()->getLogger()->critical("현재 작동되는 플러그인중 FormAPI 플러그인이 플러그인 폴더내에 없습니다.");
+			$this->getServer()->getLogger()->critical("FormAPI 플러그인을 plugins 폴더에 넣어주세요!");
+			$this->getServer()->getLogger()->critical("플러그인 로딩이 중지됩니다. 감사합니다.");
+			$this->getServer()->getPluginManager()->disablePlugin($this);
+			return;
+		}
+		
 		foreach([
 			"PlayerListUICommand"
 		] as $class){
