@@ -1,1 +1,13 @@
-# ZEROSM BetterTogether - Nukkit Plugin
+# ZS-PlayerList
+제작: 고장난제로
+제작팀: ZEROSM Network
+라이센스: ZEROSM Network Inc.
+
+----------------------------
+
+* v1.0.0 업데이트
+ - '/인원' 명령어 추가
+ - 관리자와 유저의 닉네임 표시 색 차별화 작업
+ - UI로 열리게 설정
+ 
+----------------------------
