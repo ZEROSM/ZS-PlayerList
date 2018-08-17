@@ -39,7 +39,7 @@ class PlayerList extends PluginBase{
 			$this->getServer()->getPluginManager()->disablePlugin($this);			
 		}
 		
-		$this->getLogger()->critical("ZS-PlayerList v1.0.0 | §e오르카 제작"); 
+		$this->getLogger()->critical("ZS-PlayerList v1.0.1-Beta | §e오르카 제작"); 
 		$this->getLogger()->notice("해당 플러그인은 ZEROSM Network 서버 전용 플러그인으로 외부로 유출하실수 없습니다."); 
 		$this->getLogger()->notice("해당 플러그인은 §eZEROSM Network Inc.§b 라이센스로 보호받고 있습니다.");
 	}
