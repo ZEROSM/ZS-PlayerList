@@ -1,6 +1,6 @@
-﻿name: ZS-Join
+﻿name: ZS-PlayerList
 api: [3.0.0-ALPHA12, 3.0.0-ALPHA12-ALPHA4, 3.0.0-ALPHA12-ALPHA5, 3.0.0-ALPHA12-ALPHA12] 
 version: "1.0.0"
-main: ZEROSM\Plugin0
+main: NewZerosm\PlayerList
 author: MineDefenser
 website: http://zerosm.kro.kr
